@@ -1,0 +1,5 @@
+1: Complete styles?
+2: Mobile responsive
+3: Add routes
+4: Header bar with contact info 
+
