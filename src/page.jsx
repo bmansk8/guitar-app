@@ -1,8 +1,9 @@
 import React from 'react';
-import './page.css'
-import blue1 from './photos/blue1.jpg'
-import green1 from './photos/green1.jpg'
-import purple1 from './photos/purple1.jpg'
+import './page.css';
+import blue1 from './photos/blue1.jpg';
+import green1 from './photos/green1.jpg';
+import purple1 from './photos/purple1.jpg';
+import { ContactBar } from './services/contactbar.jsx';
 import {
   Jumbotron,
   Button,
@@ -16,6 +17,7 @@ import {
 export default function Page() {
   return (
     <div>
+      <ContactBar />
 
       <Jumbotron>
         <h1>IZM Guitars</h1>
@@ -29,17 +31,16 @@ export default function Page() {
           <Col>
             <div className='collection rounded'>
               <h2>Contact Us</h2>
-              <p>Cupidatat anim aliquip enim esse aute eu nostrud pariatur in ea cillum magna.
-              Minim velit consectetur proident nulla pariatur. Fugiat anim aute adipisicing ipsum.
-              Aute tempor elit magna ea sunt incididunt. Eu cillum labore ipsum duis do aliquip sint mollit ea consequat.</p>
+              <p>So while this website is a simple coding project for me, the guitars are real! If you are interested in buying one, just shoot me a email.
+              I will try to get back to you as soon as I can.</p>
             </div>
           </Col>
           <Col>
             <div id='about' className='rounded collection'>
               <h2>About Us</h2>
-              <p>Ut pariatur eiusmod dolor incididunt cillum sit sunt nostrud incididunt sit cupidatat culpa.
-              Est duis excepteur eiusmod officia esse nulla irure consectetur reprehenderit dolor mollit id qui.
-              Amet esse ipsum velit fugiat deserunt laborum sunt anim.</p>
+              <p>We have been in the music seen for over 30 years and got into building guitars in 2019. Since then
+              we have built and modded serveral guitars and finnaly made so many that the wife said we had to sell some!
+              So if your interested please take a look at our gallery bellow.</p>
             </div>
           </Col>
         </Row>
@@ -59,7 +60,7 @@ export default function Page() {
                   This is our custom bigsy tremelo style tele! Sporting a amazing dark to light blue fade,
                   humbuckers, and F hole style body. this tele is warm and fun.
                 </Card.Text>
-                <Button variant="primary">Check me out!</Button>
+                <Button href='/blue' variant="primary">Check me out!</Button>
               </Card.Body>
             </Card>
           </Col>
@@ -72,7 +73,7 @@ export default function Page() {
                   This is our standard style F hole tele. Sporting light to dark green fade and single coils.
                   Get ready for a twangy, yet warm sound.
                 </Card.Text>
-                <Button variant="primary">Check me out!</Button>
+                <Button href='/green' variant="primary">Check me out!</Button>
               </Card.Body>
             </Card>
           </Col>
@@ -85,7 +86,7 @@ export default function Page() {
                   This is our texas blinged out tele. Sporting a wilkinson p90 in the neck, a alnicove single coil, bridge, and plate,
                   and that awesome purple burst finish.
                 </Card.Text>
-                <Button variant="primary">Check me out!</Button>
+                <Button href='/purple' variant="primary" >Check me out!</Button>
               </Card.Body>
             </Card>
           </Col>
@@ -95,9 +96,3 @@ export default function Page() {
     </div>
   )
 }
-
-{/* 
-    We have been in the music seen for over 30 years and got into building guitars in 2019. Since then
-    we have built and modded serveral guitars and finnaly made so many that the wife said we had to sell some!
-    So if your interested please take a look at our gallery bellow.
-*/}

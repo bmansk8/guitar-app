@@ -1,6 +1,9 @@
 import React from 'react';
 import './App.css';
 import Page from './page';
+import { Blue } from './components/blue';
+import { Green } from './components/green';
+import { Purple } from './components/purple';
 import {
   BrowserRouter as Router,
   Switch,
@@ -12,6 +15,15 @@ function App() {
     <Router>
       <div>
         <Switch>
+          <Route path='/blue'>
+            <Blue />
+          </Route>
+          <Route path='/green'>
+            <Green />
+          </Route>
+          <Route path='/purple'>
+            <Purple />
+          </Route>
           <Route path='/'>
             <Page />
           </Route>
