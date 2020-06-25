@@ -19,14 +19,17 @@ export default function Page() {
     <div>
       <ContactBar />
 
-      <Jumbotron>
-        <h1>IZM Guitars</h1>
-        <p>
-          Just a dad and son building great, qaulity instruments, for a reasonable price.
+      <Container fluid id='jumbo'>
+        <Jumbotron>
+          <h1>IZM Guitars</h1>
+          <p>
+            Just a dad and son building great, qaulity instruments, for a reasonable price.
         </p>
-      </Jumbotron>
+        </Jumbotron>
+      </Container>
 
-      <Container fluid>
+
+      <Container id='section' fluid>
         <Row>
           <Col>
             <div className='collection rounded'>
@@ -49,7 +52,7 @@ export default function Page() {
       <h2 id='teleCollection'>Tele Collection</h2>
       <hr />
 
-      <Container fluid>
+      <Container fluid id='guitars'>
         <Row>
           <Col>
             <Card>

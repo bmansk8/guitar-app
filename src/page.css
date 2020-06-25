@@ -4,20 +4,39 @@
   margin-top: 6rem;
 }
 
-.container-fluid{
-  margin-top: 6rem;
+#section{
+  background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(173,216,230,1) 100%);
+  margin: 0;
+  padding: 6rem;
+}
+
+#jumbo{
+  background-image: url(./photos/background.jpg);
+  background-size: contain;
+  margin: 0;
+  padding: 6rem;
+}
+
+#guitars{
+  background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(173,216,230,1) 100%);
+  padding-bottom: 75px;
 }
 
 .container-fluid .card{
   width: 300px;
 }
 
+.container-fluid{
+  margin-top: 6rem;
+}
+
 .card{
   margin: auto;
+  background-color:#e9ecef!important;
 }
 
 .collection{
-  width: 400px;
+  width: 75%;
   background-color: #e9ecef;
   padding: 10px;
   margin: auto;
@@ -27,10 +46,61 @@
   width: 50%;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 2%;
 }
 
 hr{
   margin-left: 12%;
   width: 500px;
+}
+
+@media (max-width:1000px){
+  .container-fluid .card{
+    width: 200px;
+  }
+
+  #teleCollection{
+    margin-left: 5px;
+  }
+
+  #section{
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  #section .row{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  #section .row .col{
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  hr{
+    margin-left: 0px;
+    width: 400px;
+  }
+
+  .jumbotron{
+    width: 75%;
+    margin: auto;
+    padding:0;
+  }
+}
+
+@media (max-width:680px){
+  .container-fluid .card{
+    width: 150px;
+    font-size: small;
+  }
+
+  .card .btn{
+    font-size: small;
+  }
+
+  #guitars .col{
+    padding: 0;
+  }
 }

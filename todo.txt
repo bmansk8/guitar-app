@@ -1,5 +1,7 @@
-1: Complete styles?
-2: Mobile responsive
-3: Add routes
+1: Complete styles? ✅
+2: Mobile responsive ✅
+3: Add routes ✅
 4: Header bar with contact info ✅
 5: Migrate to bootstrap 5 in a branch possibly
+6: routes styled
+7: routes mobile responsive
