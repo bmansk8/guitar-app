@@ -19,7 +19,7 @@ export const ContactBar = function () {
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto">
           <Nav.Link href="/">Home</Nav.Link>
-          <NavDropdown title="Dropdown" id="basic-nav-dropdown">
+          <NavDropdown title="Guitars" id="basic-nav-dropdown">
             <NavDropdown.Item href="/blue">Bigsby Tele</NavDropdown.Item>
             <NavDropdown.Item href="/green">F Hole Tele</NavDropdown.Item>
             <NavDropdown.Item href="/purple">Texas Tele</NavDropdown.Item>
