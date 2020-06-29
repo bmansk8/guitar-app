@@ -24,7 +24,7 @@ export default function Page() {
           <h1>IZM Guitars</h1>
           <p>
             Just a dad and son building great, qaulity instruments, for a reasonable price.
-        </p>
+          </p>
         </Jumbotron>
       </Container>
 
@@ -52,7 +52,7 @@ export default function Page() {
       <h2 id='teleCollection'>Tele Collection</h2>
       <hr />
 
-      <Container fluid id='guitars'>
+      <Container fluid id='guitars1'>
         <Row>
           <Col>
             <Card>
@@ -94,6 +94,47 @@ export default function Page() {
             </Card>
           </Col>
         </Row>
+      </Container>
+
+      <Container fluid id='guitars2'>
+        <Col>
+          <Card>
+            <Card.Img variant="top" src={blue1} />
+            <Card.Body>
+              <Card.Title>Bigsby Tele <Badge variant='success'>New</Badge> </Card.Title>
+              <Card.Text>
+                This is our custom bigsy tremelo style tele! Sporting a amazing dark to light blue fade,
+                humbuckers, and F hole style body. this tele is warm and fun.
+                </Card.Text>
+              <Button href='/blue' variant="primary">Check me out!</Button>
+            </Card.Body>
+          </Card>
+
+          <Card >
+            <Card.Img variant="top" src={green1} />
+            <Card.Body>
+              <Card.Title>F Hole Tele</Card.Title>
+              <Card.Text>
+                This is our standard style F hole tele. Sporting light to dark green fade and single coils.
+                Get ready for a twangy, yet warm sound.
+                </Card.Text>
+              <Button href='/green' variant="primary">Check me out!</Button>
+            </Card.Body>
+          </Card>
+
+          <Card >
+            <Card.Img variant="top" src={purple1} />
+            <Card.Body>
+              <Card.Title>Texas Tele</Card.Title>
+              <Card.Text>
+                This is our texas blinged out tele. Sporting a wilkinson p90 in the neck, a alnicove single coil, bridge, and plate,
+                and that awesome purple burst finish.
+                </Card.Text>
+              <Button href='/purple' variant="primary" >Check me out!</Button>
+            </Card.Body>
+          </Card>
+
+        </Col>
       </Container>
 
     </div>

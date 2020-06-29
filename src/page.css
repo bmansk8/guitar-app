@@ -17,9 +17,22 @@
   padding: 6rem;
 }
 
-#guitars{
+#guitars1{
   background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(173,216,230,1) 100%);
   padding-bottom: 75px;
+  display: block;
+}
+
+#guitars2{
+  display: none;
+}
+
+.jumbotron h1{
+  padding: 6px;
+}
+
+.jumbotron p{
+  pad: 6px;
 }
 
 .container-fluid .card{
@@ -92,15 +105,17 @@ hr{
 
 @media (max-width:680px){
   .container-fluid .card{
-    width: 150px;
-    font-size: small;
+    width: 75%;
+    margin-bottom: 15px;
   }
 
-  .card .btn{
-    font-size: small;
+  #guitars1{
+    display: none;
   }
 
-  #guitars .col{
-    padding: 0;
+  #guitars2{
+    display: block;
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(173,216,230,1) 100%);
+    padding: 5px;
   }
 }
