@@ -1,5 +1,8 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## AWS Amplify
+this project is hosted on aws amplify. click [here](https://master.d3l8o45biaqq60.amplifyapp.com/) to see it running!
+
 ## Available Scripts
 
 In the project directory, you can run:
