@@ -79,6 +79,8 @@ export const Green = function () {
         </Carousel.Item>
       </Carousel>
 
+      <footer></footer>
+
     </div>
   )
 }

@@ -79,6 +79,8 @@ export const Purple = function () {
         </Carousel.Item>
       </Carousel>
 
+      <footer></footer>
+
     </div>
   )
 }

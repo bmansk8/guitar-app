@@ -79,6 +79,8 @@ export const Blue = function () {
         </Carousel.Item>
       </Carousel>
 
+      <footer></footer>
+
     </div>
   )
 }
