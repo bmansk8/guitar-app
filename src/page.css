@@ -19,11 +19,6 @@
 #guitars1{
   background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(173,216,230,1) 100%);
   padding-bottom: 75px;
-  display: block;
-}
-
-#guitars2{
-  display: none;
 }
 
 .jumbotron h1{
@@ -34,8 +29,9 @@
   padding: 6px;
 }
 
-.container-fluid .card{
-  width: 300px;
+.collection{
+  background-color: #e9ecef;
+  padding: 4rem 2rem;
 }
 
 .container-fluid{
@@ -43,15 +39,7 @@
 }
 
 .card{
-  margin: auto;
   background-color:#e9ecef!important;
-}
-
-.collection{
-  width: 75%;
-  background-color: #e9ecef;
-  padding: 10px;
-  margin: auto;
 }
 
 .jumbotron{
@@ -62,59 +50,46 @@
 
 hr{
   margin-left: 12%;
-  width: 500px;
+  width: 75%;
 }
 
-@media (max-width:1000px){
-  .container-fluid .card{
-    width: 200px;
-  }
+.container-fluid .card{
+  margin: 3rem;
+}
 
-  #teleCollection{
-    margin-left: 5px;
-  }
 
-  #section{
-    padding-left: 0;
-    padding-right: 0;
-  }
-
-  #section .row{
-    width: 100%;
-    margin: 0;
-    padding: 0;
-  }
-
-  #section .row .col{
-    padding-left: 0;
-    padding-right: 0;
-  }
-
-  hr{
-    margin-left: 0px;
-    width: 400px;
-  }
-
-  .jumbotron{
-    width: 75%;
-    margin: auto;
-    padding:0;
+@media (max-width:992px){
+  .collection{
+    padding: 1rem;
   }
 }
 
-@media (max-width:680px){
-  .container-fluid .card{
-    width: 75%;
+@media (max-width:576px){
+  .collection{
     margin-bottom: 15px;
   }
 
-  #guitars1{
-    display: none;
+  .collection h2{
+    font-size: x-large;
   }
 
-  #guitars2{
-    display: block;
-    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(173,216,230,1) 100%);
-    padding: 5px;
+  .collection p{
+    font-size: medium;
+  }
+
+  .jumbotron{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding:6px !important;
+    line-break: loose;
+  }
+
+  .jumbotron p{
+    font-size: medium;
+  }
+
+  .jumbotron h1{
+    font-size: x-large;
   }
 }
