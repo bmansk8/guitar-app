@@ -41,9 +41,9 @@ export default function Page() {
           <Col sm={6}>
             <div id='about' className='rounded collection'>
               <h2>About Us</h2>
-              <p>We have been in the music seen for over 30 years and got into building guitars in 2019. Since then
-              we have built and modded serveral guitars and finnaly made so many that the wife said we had to sell some!
-              So if your interested please take a look at our gallery bellow.</p>
+              <p>We have been in the music seen for over 30 years and got into building guitars in 2019.
+              Since then we have built and modded several guitars and finally made so many that the wife said we had to sell some!
+              So if you&apos;re interested please take a look at our gallery below.</p>
             </div>
           </Col>
         </Row>
