@@ -6,7 +6,7 @@ this project is hosted on aws amplify. click [here](https://master.d3l8o45biaqq6
 ## Utilities used
 
 HTML, CSS, JavaScript, fontAwesome, eslint, react router, and react bootstrap.<br />
-SIDE NOTE:I will try to migrate to bootstrap 5's alpha when it becomes more stable and or has a full release
+SIDE NOTE: I will try to migrate to bootstrap 5's alpha when it becomes more stable and or has a full release
 
 ## Available Scripts
 
