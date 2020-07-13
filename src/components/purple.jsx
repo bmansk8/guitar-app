@@ -50,7 +50,7 @@ export const Purple = function () {
 
           <Carousel.Caption>
             <h3>Top Body</h3>
-            <p>wilkinson p90, and alnicove single coil, plate, and bridge</p>
+            <p>Wilkinson p90, and alnicove single coil, plate, and bridge</p>
           </Carousel.Caption>
         </Carousel.Item>
 

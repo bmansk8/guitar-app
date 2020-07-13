@@ -50,7 +50,7 @@ export const Blue = function () {
 
           <Carousel.Caption>
             <h3>Top Body</h3>
-            <p>Duel humbuckers, bigsby style bridge, and F hole</p>
+            <p>Dual humbuckers, bigsby style bridge, and F hole</p>
           </Carousel.Caption>
         </Carousel.Item>
 

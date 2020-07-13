@@ -50,7 +50,7 @@ export const Green = function () {
 
           <Carousel.Caption>
             <h3>Top Body</h3>
-            <p>Duel single coils, custom pickguard, and F hole</p>
+            <p>Dual single coils, custom pickguard, and F hole</p>
           </Carousel.Caption>
         </Carousel.Item>
 

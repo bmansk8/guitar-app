@@ -23,7 +23,7 @@ export default function Page() {
         <Jumbotron>
           <h1>IZM Guitars</h1>
           <p>
-            Just a dad and son building great, qaulity instruments, for a reasonable price.
+          Just a father and son building great, quality instruments, for a reasonable price.
           </p>
         </Jumbotron>
       </Container>
@@ -34,14 +34,14 @@ export default function Page() {
           <Col sm={6}>
             <div className='collection rounded'>
               <h2>Contact Us</h2>
-              <p>So while this website is a simple coding project for me, the guitars are real! If you are interested in buying one, just shoot me a email.
+              <p>So while this website is a simple coding project for me, the guitars are real! If you are interested in buying one, just shoot me an email.
               I will try to get back to you as soon as I can.</p>
             </div>
           </Col>
           <Col sm={6}>
             <div id='about' className='rounded collection'>
               <h2>About Us</h2>
-              <p>We have been in the music seen for over 30 years and got into building guitars in 2019.
+              <p>We have been in the music scene for over 30 years and got into building guitars in 2019.
               Since then we have built and modded several guitars and finally made so many that the wife said we had to sell some!
               So if you&apos;re interested please take a look at our gallery below.</p>
             </div>
@@ -60,8 +60,7 @@ export default function Page() {
               <Card.Body>
                 <Card.Title>Bigsby Tele <Badge variant='success'>New</Badge> </Card.Title>
                 <Card.Text>
-                  This is our custom bigsy tremelo style tele! Sporting a amazing dark to light blue fade,
-                  humbuckers, and F hole style body. this tele is warm and fun.
+                This is our custom bigsby tremolo style tele! Sporting an amazing dark to light blue fade, humbuckers, and F hole style body. This tele is warm and fun.
                 </Card.Text>
                 <Button href='/blue' variant="primary">Check me out!</Button>
               </Card.Body>
@@ -86,8 +85,7 @@ export default function Page() {
               <Card.Body>
                 <Card.Title>Texas Tele</Card.Title>
                 <Card.Text>
-                  This is our texas blinged out tele. Sporting a wilkinson p90 in the neck, a alnicove single coil, bridge, and plate,
-                  and that awesome purple burst finish.
+                This is our Texas blinged out tele. Sporting a wilkinson p90 in the neck, a Alnicove single coil, bridge, and plate, and that awesome purple burst finish.
                 </Card.Text>
                 <Button href='/purple' variant="primary" >Check me out!</Button>
               </Card.Body>
