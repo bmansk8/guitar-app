@@ -3,6 +3,12 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## AWS Amplify
 this project is hosted on aws amplify. click [here](https://master.d3l8o45biaqq60.amplifyapp.com/) to see it running!
 
+## Utilities used
+
+HTML, CSS, JavaScript, fontAwesome, eslint, react router, and react bootstrap
+SIDE NOTE:
+I will try to migrate to bootstrap 5's alpha becomes more stable and or has a full release
+
 ## Available Scripts
 
 In the project directory, you can run:
