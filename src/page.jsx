@@ -2,6 +2,7 @@ import React from 'react';
 import blue1 from './photos/blue1.jpg';
 import green1 from './photos/green1.jpg';
 import purple1 from './photos/purple1.jpg';
+import bronco1 from './photos/bronco1.jpg'
 import { ContactBar } from './services/contactbar.jsx';
 import {
   Jumbotron,
@@ -23,7 +24,7 @@ export default function Page() {
         <Jumbotron>
           <h1>IZM Guitars</h1>
           <p>
-          Just a father and son building great, quality instruments, for a reasonable price.
+            Just a father and son building great, quality instruments, for a reasonable price.
           </p>
         </Jumbotron>
       </Container>
@@ -31,14 +32,14 @@ export default function Page() {
 
       <Container id='section' fluid>
         <Row>
-          <Col sm={6}>
+          <Col sm={4}>
             <div className='collection rounded'>
               <h2>Contact Us</h2>
               <p>So while this website is a simple coding project for me, the guitars are real! If you are interested in buying one, just shoot me an email.
               I will try to get back to you as soon as I can.</p>
             </div>
           </Col>
-          <Col sm={6}>
+          <Col sm={4}>
             <div id='about' className='rounded collection'>
               <h2>About Us</h2>
               <p>We have been in the music scene for over 30 years and got into building guitars in 2019.
@@ -60,7 +61,7 @@ export default function Page() {
               <Card.Body>
                 <Card.Title>Bigsby Tele <Badge variant='success'>New</Badge> </Card.Title>
                 <Card.Text>
-                This is our custom bigsby tremolo style tele! Sporting an amazing dark to light blue fade, humbuckers, and F hole style body. This tele is warm and fun.
+                  This is our custom bigsby tremolo style tele! Sporting an amazing dark to light blue fade, humbuckers, and F hole style body. This tele is warm and fun.
                 </Card.Text>
                 <Button href='/blue' variant="primary">Check me out!</Button>
               </Card.Body>
@@ -70,12 +71,12 @@ export default function Page() {
             <Card>
               <Card.Img variant="top" src={green1} />
               <Card.Body>
-                <Card.Title>F Hole Tele</Card.Title>
+                <Card.Title>F Hole Tele <Badge variant='danger'>Sold</Badge></Card.Title>
                 <Card.Text>
                   This is our standard style F hole tele. Sporting light to dark green fade and single coils.
                   Get ready for a twangy, yet warm sound.
                 </Card.Text>
-                <Button href='/green' variant="primary">Check me out!</Button>
+                <Button href='/green' variant="secondary">Check me out!</Button>
               </Card.Body>
             </Card>
           </Col>
@@ -85,9 +86,21 @@ export default function Page() {
               <Card.Body>
                 <Card.Title>Texas Tele</Card.Title>
                 <Card.Text>
-                This is our Texas blinged out tele. Sporting a wilkinson p90 in the neck, a Alnicove single coil, bridge, and plate, and that awesome purple burst finish.
+                  This is our Texas blinged out tele. Sporting a wilkinson p90 in the neck, a Alnicove single coil, bridge, and plate, and that awesome purple burst finish.
                 </Card.Text>
                 <Button href='/purple' variant="primary" >Check me out!</Button>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col lg={4} md={6}>
+            <Card >
+              <Card.Img variant="top" src={bronco1} />
+              <Card.Body>
+                <Card.Title>Bronco Tele</Card.Title>
+                <Card.Text>
+                This is a refurbished squier Tele that has a relic body, maple fretboard, and is setup for insane playability.
+                </Card.Text>
+                <Button href='/bronco' variant="primary" >Check me out!</Button>
               </Card.Body>
             </Card>
           </Col>

@@ -4,6 +4,7 @@ import Page from './page';
 import { Blue } from './components/blue';
 import { Green } from './components/green';
 import { Purple } from './components/purple';
+import { Bronco } from './components/bronco';
 import {
   BrowserRouter as Router,
   Switch,
@@ -15,6 +16,9 @@ function App() {
     <Router>
       <div>
         <Switch>
+        <Route path='/bronco'>
+            <Bronco />
+          </Route>
           <Route path='/blue'>
             <Blue />
           </Route>

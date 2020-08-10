@@ -9,6 +9,10 @@
   padding: 6rem;
 }
 
+#section .row{
+  justify-content: space-around;
+}
+
 #jumbo{
   background-image: url(./photos/background.jpg);
   background-size: contain;
@@ -64,7 +68,7 @@ hr{
   }
 }
 
-@media (max-width:576px){
+@media (max-width:620px){
   .collection{
     margin-bottom: 15px;
   }

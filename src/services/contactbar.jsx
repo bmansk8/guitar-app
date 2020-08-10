@@ -23,6 +23,7 @@ export const ContactBar = function () {
             <NavDropdown.Item href="/blue">Bigsby Tele</NavDropdown.Item>
             <NavDropdown.Item href="/green">F Hole Tele</NavDropdown.Item>
             <NavDropdown.Item href="/purple">Texas Tele</NavDropdown.Item>
+            <NavDropdown.Item href="/bronco">Bronco Tele</NavDropdown.Item>
           </NavDropdown>
           <Navbar.Text><FontAwesomeIcon icon={faEnvelope} /> Email: Bmansk14@gmail.com</Navbar.Text>
           <Navbar.Text><FontAwesomeIcon icon={faMapMarker} /> Dahlonega Ga</Navbar.Text>

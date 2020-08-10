@@ -1,6 +1,6 @@
 import React from 'react';
 import { ContactBar } from '../services/contactbar';
-import { Carousel } from 'react-bootstrap'
+import { Carousel, Badge } from 'react-bootstrap'
 import green1 from '../photos/green1.jpg'
 import green2 from '../photos/green2.jpg'
 import green3 from '../photos/green3.jpg'
@@ -14,7 +14,7 @@ export const Green = function () {
   return (
     <div>
       <ContactBar />
-      <h1 className='text-center'>F Hole Tele</h1>
+      <h1 className='text-center'>F Hole Tele <Badge variant='danger'>Sold</Badge></h1>
 
       <Carousel>
         <Carousel.Item>
