@@ -1,8 +1,5 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## AWS Amplify
-this project is hosted on aws amplify. click [here](https://master.d3l8o45biaqq60.amplifyapp.com/) to see it running!
-
 ## Utilities used
 
 HTML, CSS, JavaScript, fontAwesome, eslint, react router, and react bootstrap.<br />
